@@ -37,11 +37,11 @@ public class Login {
 		//Check the Condition using If-else
 		if(rs.next())
 		{
-			System.out.println("Login Successful");
+			System.out.println("Login Successfully");
 
 		}
 		else{
-			System.out.println("Incorrect Username Or Password");
+			System.out.println("Incorrect credentials");
 		}
 		connection.close();
 	}
